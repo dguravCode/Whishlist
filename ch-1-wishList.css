@@ -1,0 +1,95 @@
+/*Basic reset and font settings */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', sans-serif;
+    line-height: 1.6;
+    background-image: url("./images/red-light\ black-background-mock-up.jpg");
+}
+
+/*Main container styling */
+.main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/*Heading style */
+.heading-1 {
+    text-align: center;
+    color: #fbf8f8;
+    margin-bottom: 30px;
+}
+
+/*Form layout */
+.todo-form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+/*Input field styling */
+.input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+}
+
+/*Button styling */
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+}
+
+.btn-primary {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/*Cursor pointer for buttons */
+.cursor {
+    cursor: pointer;
+}
+
+/* Todo container basic styling */
+.todo-container {
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.checkTodo {
+  text-decoration: line-through;
+  color: #fdf9f9;
+}
+
+
+.todo-item {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+
+/* Step 9: Hover effects for buttons */
+.button:hover {
+    opacity: 0.8;
+}
+
+.remove-btn {
+  background: red;
+  color: white;
+  margin-left: 20px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.remove-btn:hover {
+  background: darkred;
+}
