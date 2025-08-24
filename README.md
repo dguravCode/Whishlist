@@ -2,7 +2,6 @@
 Wishlist Web App
 is interactive wishlist application built with HTML, CSS, and JavaScript. Users can add new items, mark them as completed, and remove them from the list.
 A dynamic wishlist application built with HTML, CSS, and JavaScript that allows users to create, manage and track their wishlist items.
-Live Demo: https://whishlist-drab.vercel.app/
 
 ## Features
 
@@ -21,6 +20,9 @@ Live Demo: https://whishlist-drab.vercel.app/
   - LocalStorage for data persistence
   - Event delegation for handling item interactions
   - CSS Flexbox for responsive layout
+
+##Live Link
+https://whishlist-drab.vercel.app/
 
 ## Project Structure
 
