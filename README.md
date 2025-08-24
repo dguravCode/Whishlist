@@ -21,7 +21,7 @@ A dynamic wishlist application built with HTML, CSS, and JavaScript that allows 
   - Event delegation for handling item interactions
   - CSS Flexbox for responsive layout
 
-##Live Link
+## Live Link
 https://whishlist-drab.vercel.app/
 
 ## Project Structure
